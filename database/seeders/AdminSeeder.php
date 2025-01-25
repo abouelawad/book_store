@@ -13,11 +13,11 @@ class AdminSeeder extends Seeder
      */
     public function run(): void
     {
-        Admin::create([
-            'name' => 'admin',
-            'email' => env('ADMIN_EMAIL'),
-            'password' => env("ADMIN_PASSWORD")
-        ]);
+        // Admin::create([
+        //     'name' => 'admin',
+        //     'email' => env('ADMIN_EMAIL'),
+        //     'password' => env("ADMIN_PASSWORD")
+        // ]);
         // Admin::create([
         //     'name' => 'admin',
         //     'email' => 'admin@admin.com',
